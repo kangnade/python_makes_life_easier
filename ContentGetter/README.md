@@ -46,8 +46,8 @@ C:\Users\username\Desktop\randomprojects\ContentGetter>python runContentGetter.p
     copying and pasting all the time to fill out only application, this
     could make your life easier!
 
-Press Y/y to continue; press any key to quit
-Are you going to use the ContentGetter?> y
+`Press Y/y to continue; press any key to quit`
+`Are you going to use the ContentGetter?> y`
 Please enter file path (up to folder level); q to quit:> C:/Users/username/Desktop/randomprojects
 Please enter the file name (e.g. xyz.json): keys.json
 Would you like to (add), (get), (del) content?> (Press any key to quit):> add
