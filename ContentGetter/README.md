@@ -12,7 +12,7 @@ get, or delete keys and items that are encrypted in a json file.
 You need Python and Required libraries to run it.
 
 ```
-Give examples
+cryptography, json, pathlib, etc.
 ```
 
 ### Installing
@@ -20,67 +20,67 @@ Give examples
 No installation. Please manually download the file and give it a try.
 
 ```
-Give the example
+N/A
 ```
 
 And repeat
 
 ```
-until finished
+N/A
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Cmd running sample
 
-Explain how to run the automated tests for this system
+'''
+C:\Users\username\Desktop\randomprojects\ContentGetter>python runContentGetter.py
 
-### Break down into end to end tests
+    Welcome, you are using the ContentGetter. Though ContentGetter
+    uses Python Cryptography to encrypt your saved information, please
+    do not use it to store important passwords on sites such as Bank
+    , Amazon, Facebook, or Instagram where Hackers could be a potential
+    threat.
 
-Explain what these tests test and why
+    It's fine to use it to store information with your CV, if you are
+    copying and pasting all the time to fill out only application, this
+    could make your life easier!
 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Press Y/y to continue; press any key to quit
+Are you going to use the ContentGetter?> y
+Please enter file path (up to folder level); q to quit:> C:/Users/username/Desktop/randomprojects
+Please enter the file name (e.g. xyz.json): keys.json
+Would you like to (add), (get), (del) content?> (Press any key to quit):> add
+Please enter the account name:> youtube
+Please enter the content:> youtubepassword
+Would you like to (add), (get), (del) content?> (Press any key to quit):> add
+Please enter the account name:> facebook
+Please enter the content:> facebookpassword
+Would you like to (add), (get), (del) content?> (Press any key to quit):> add
+Please enter the account name:> twitter
+Please enter the content:> twitterpassword
+Would you like to (add), (get), (del) content?> (Press any key to quit):> add
+Please enter the account name:> instagram
+Please enter the content:> inspassword
+Would you like to (add), (get), (del) content?> (Press any key to quit):> get
+Please enter the account name:> twitter
+Information copied, please paste on your browser.
+Would you like to (add), (get), (del) content?> (Press any key to quit):> del
+Please enter the account name:> facebook
+C:\Users\username\Desktop\randomprojects\keys.json
+Would you like to (add), (get), (del) content?> (Press any key to quit):> get
+Please enter the account name:> facebook
+There is no such KEY in the file
+Would you like to (add), (get), (del) content?> (Press any key to quit):>
+'''
 
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Nade Kang** - *Initial work* - [nadekang](https://github.com/kangnade)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+See also the list of [contributors](https://github.com/kangnade/python_makes_life_easier/graphs/contributors) who participated in this project.
