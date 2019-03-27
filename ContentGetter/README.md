@@ -1,4 +1,4 @@
-# Project Title
+# ContentGetter
 
 This project allows user to store information via Python program. Using cmd to run "runContentGetter.py" and it allows the user to add,
 get, or delete keys and items that are encrypted in a json file. When the user wants to get it, just use the get function, and the items(contents) will be automatically copied to your clipboard. Just paste it.
