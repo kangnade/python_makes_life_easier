@@ -33,7 +33,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Cmd running sample
 
-'''
+```
 C:\Users\username\Desktop\randomprojects\ContentGetter>python runContentGetter.py
 
     Welcome, you are using the ContentGetter. Though ContentGetter
@@ -47,15 +47,10 @@ C:\Users\username\Desktop\randomprojects\ContentGetter>python runContentGetter.p
     could make your life easier!
 
 Press Y/y to continue; press any key to quit
-
 Are you going to use the ContentGetter?> y
-
 Please enter file path (up to folder level); q to quit:> C:/Users/username/Desktop/randomprojects
-
 Please enter the file name (e.g. xyz.json): keys.json
-
 Would you like to (add), (get), (del) content?> (Press any key to quit):> add
-
 Please enter the account name:> youtube
 Please enter the content:> youtubepassword
 Would you like to (add), (get), (del) content?> (Press any key to quit):> add
@@ -77,7 +72,7 @@ Would you like to (add), (get), (del) content?> (Press any key to quit):> get
 Please enter the account name:> facebook
 There is no such KEY in the file
 Would you like to (add), (get), (del) content?> (Press any key to quit):>
-'''
+```
 
 ## Deployment
 
