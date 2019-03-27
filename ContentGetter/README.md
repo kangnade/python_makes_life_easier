@@ -1,7 +1,9 @@
 # Project Title
 
 This project allows user to store information via Python program. Using cmd to run "runContentGetter.py" and it allows the user to add,
-get, or delete keys and items that are encrypted in a json file.
+get, or delete keys and items that are encrypted in a json file. When the user wants to get it, just use the get function, and the items(contents) will be automatically copied to your clipboard. Just paste it.
+
+This helps people who are applying to jobs to store resume/cv information in a json file, encrypted with a unique key for each key/item so other won't be able to read it. When you want to enter information in a specific section in the online application, just get the key, and paste it in the browser.
 
 ## Getting Started
 
